@@ -11,7 +11,7 @@ th, td {
     padding: 10px;
 }
 
-caption {
+th, thead {
     font-weight: bold;
     padding: 10px;
 }
