@@ -10,6 +10,24 @@
 <body>
     <h1>Fale Conosco</h1>
 
+    <form action="dados-forms.html" method="post"> <!-- manda o formulario para o servidor-->
+        <div>
+            <label for="name">Seu nome:</label> <!-- cria o espaço para digitação do nome-->
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="email">Seu e-mail</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label for="msg">Como foi a sua experiência no site?</label> <!-- cria um campo de mensagem para obter opiniões acerca do site -->
+            <textarea name="" id="msg" cols="30" rows="5"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Enviar sua opinião</button>
+        </div>
+    </form>
+
     <p><a href="index.html">Retomar à página inicial</a></p>
 </body>
 </html>

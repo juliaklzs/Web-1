@@ -10,6 +10,39 @@
 <body>
     <h1>Escolha sua Bebida!</h1>
 
+    <form action="dados-forms.html" method="post">
+        <div>
+            <label for="dados-forms.html">Que bebida você quer?</label> <!-- criando uma lista de opções (dropdown/combobox) -->
+            <select name="bebidas" id="bvrg">
+                <option value="4" selected>Café puro</option>
+                <option value="3" selected>Café com leite</option>
+                <option value="2" selected>Capuccino</option>
+                <option value="1" selected>Café gelado</option> <!--credo &#129326-->
+                <option value="0" selected>Chocolate quente</option>
+            </select>
+        </div>
+        <div>
+            <label for="dados-forms.html">Escolha os acompanhamentos:</label>
+            <input type="checkbox" name="acompanhamentos" id="sd"
+            value="Chantilly" checked> Chantilly
+            <input type="checkbox" name="acompanhamentos" id="sd"
+            value="Raspas de Chocolate" checked> Raspas de Chocolate
+            <input type="checkbox" name="acompanhamentos" id="sd"
+            value="Ovomaltine" checked> Ovomaltine
+        </div>
+        <div>
+            <label for="dados-forms.html">Selecione a intensidade da torra do café:</label>
+            <input type="radio" name="torra" id="roast"
+            value="fraco" checked> Fraco
+            <input type="radio" name="torra" id="roast"
+            value="medio" checked> Médio
+            <input type="radio" name="torra" id="roast"
+            value="forte" checked> Forte
+        </div>
+        <div class="button">
+            <button type="submit">Fazer Pedido</button>
+        </div>
+    </form>
     <p><a href="index.html">Retornar à página inicial</a></p>
 </body>
 </html>
